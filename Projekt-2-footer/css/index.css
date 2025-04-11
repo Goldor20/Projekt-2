@@ -11,6 +11,8 @@
         border-top: 2px solid black;
         margin:0;
         padding:0;
+        align-items: center;
+        background-color: #C49A6C;
     }
     p{
         font-size: 10px;
@@ -18,19 +20,24 @@
     section{
         display: none;
     }
-    .elerhetoseg{
-        display: none;
+    
+    .terms{
+        display:none;
     }
 }
 @media screen and (min-width: 600px){
     footer{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         border-top: 2px solid black;
         margin:0;
         padding:0;
         background-color: #C49A6C;
         line-height: 25px;
+        height:60px;
+        align-items: center;
+        border-radius: 0%;
     }
     p{
         font-size: 1vw;
