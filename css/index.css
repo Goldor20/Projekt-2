@@ -86,6 +86,11 @@ button:hover{
   }
    
 }
+@media screen and (min-width:601px){
+    .etteremkep{
+        float:right;
+    }
+}
 @media screen and (max-width:601px) { /*header*/
     #slogen{
        display: none;
