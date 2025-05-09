@@ -26,8 +26,9 @@ header{
     height: 5vw;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
+    margin-right: 0.5vw;
     border-radius: 10px;
-    padding-right: 0.1vw;
+    
 }
 
 button{
@@ -38,19 +39,29 @@ button{
     border-radius: 5px;
 }
 
-button:hover{
-    background-color: #C49A6C;
-    transition: all 0.35s;
-    color: #000;
-  }
-  .dropdown{
-    display: none;
-  }
+@media screen and (min-width: 601px){ 
+
+  button:hover{
+      background-color: #C49A6C;
+      transition: all 0.35s;
+      color: #000;
+    }
+    .dropdown{
+      display: none;
+    }
+}
 @media screen and (max-width: 601px){ 
-  .kep{
+  .kep1{
       width: 390px;
       height:415px;
-      z-index: 1;
+      position: relative;
+      z-index: -1;
+  }
+  .kep2{
+    display: none;
+  }
+  .pincer2{
+    display: none;
   }
 
   .etteremkep{
@@ -75,22 +86,198 @@ button:hover{
   }
   .kepen1{
     background-color: #00c3ff;
-    font-size: 2.5vw;
+    font-size: 4vw;
     color:black;
   }
    
   .kepen2{
     background-color: #ffff;
-    font-size: 2.5vw;
+    font-size: 4vw;
     color:black;
   }
-   
+  .bemutatkozo{
+    height:70vw;
+    width: 68vw;
+    margin:auto;
+    /*margin-right:40px;
+    margin-left:80px;*/
+    margin-top: 9vw;
+    margin-bottom: 9vw;
+    font-size: larger;
+    text-align: center;
+  }
+  .alcim{
+    display: inline-block;
+
+  }
+  .bemu1{
+    display: inline-block;
+    font-size: 18px;
+  }
+  .bemu2{
+    display: inline-block;
+    font-size: 18px;
+  }
+  .font-style{
+    font-style: oblique;
+    font-size: 18px;
+  }
+
+  .pincer1{
+    display:block; 
+    width: 97px;
+    height:auto;
+    float:right;
+  }
+  .velemenyek{
+    margin-top: 15px;
+  }
+  .velem1{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin:10px;
+  }
+
+  .velem2{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin:10px;
+  }
+  .velem3{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin:10px;
+  }
+  .anonymus{
+    display: block;
+    float:left;
+  }
+  .velem-txt{
+    padding:10px;
+  }
+
 }
 @media screen and (min-width:601px){
-    .etteremkep{
-        float:right;
-    }
+  
+  .etteremkep{
+    position: relative;
+    text-align: center;
+    color: white;
+    float: right;
+    margin-right:30px;
+  }
+  .foglal{
+    position: absolute;
+    bottom: 10px;
+    left:2%;
+    z-index: 2;
+  }
+  .tervez{
+    position: absolute;
+    bottom: 10px;
+    right:2%;
+    z-index: 2;
+  }
+  .kepen1{
+    background-color: #00c3ff;
+    color:black;
+  }
+  
+  .kepen2{
+    background-color: #ffff;
+    color:black;
+  }
+  .kep2{
+    width: 45vw;
+    height:auto;
+    margin-top: 15px;
+  }
+  .kep1{
+  display:none;
+  }
+  .pincer1{
+    display:none;
+  }
+  .pincer2{
+    display: block;
+    width:120px;
+    height:auto;
+    float: left;
+  }
+  .bemutatkozo{
+    min-height:580px;
+    margin-right: 600px;
+    text-align:center;
+    margin-top:80px;
+    margin-left: 15px;
+  }
+  .alcim{
+    display:inline-block;
+    margin-top:20px;
+    margin-left:1vw;
+    font-size:45px;
+  }
+  .bemu1{
+    display:inline-block;
+    margin-top:10px;
+    font-size: 28px;
+    margin-left:1vw;
+
+  }
+  .bemu2{
+    display:block;
+    font-size: 28px;
+    margin-left:7.5vw;
 }
+  .font-style{    
+    display:block;
+    margin-left:7.5vw;
+    font-size: 28px;
+    font-style:oblique;
+  }
+  .velemenyek{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+  }
+  .velem1{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin:5px;
+    width:30%;
+    min-height: 200px;    
+  }
+
+  .velem2{
+    border: 2px solid black;
+    border-radius: 5px;
+    width:30%;
+    margin:5px;
+    min-height: 200px;
+
+  }
+  .velem3{
+    border: 2px solid black;
+    border-radius: 5px;
+    width:30%;
+    margin:5px;
+    min-height: 200px;
+
+  }
+  .anonymus{
+    display: block;
+    float:left;
+  }
+  .velem-txt{
+    padding:10px;
+    width: 300px;
+    text-align: center;
+    margin:auto
+  }
+}
+
 @media screen and (max-width:601px) { /*header*/
     #slogen{
        display: none;
@@ -103,6 +290,13 @@ button:hover{
         height: 10vw;
 
     }
+
+    /* Jobb fölső logó fix méretei*/
+    .logoright {
+        width: 13%;
+        height: 13%;
+    }
+
     .dropdown{
         display: inline;
       }
@@ -157,9 +351,9 @@ button:hover{
         background-color: #C49A6C;
     }
     p{
-        font-size: 10px;
+        font-size: 13px;
     }   
-    section{
+    .socials{
         display: none;
     }
     
