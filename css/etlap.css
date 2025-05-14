@@ -1,15 +1,87 @@
+@media screen and (min-width: 601px){/*footer*/
+  footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      border-top: 2px solid black;
+      margin:0;
+      padding:0;
+      background-color: #C49A6C;
+      line-height: 25px;
+   
+      align-items: center;
+      border-radius: 0%;
+  }
+  p{
+      font-size: 1vw;
+  }
+  .szlogen{
+      display: none;
+  }
+  img{
+      height:2vw;
+      width: 2vw;
+      border-radius: 5px; 
+  }
+  .ig{
+      border-radius: 5px; 
+  }
+  .fb{
+      border-radius: 5px; 
+  }
+}
+
+
+@media screen and (max-width: 601px){ /*footer*/
+
+  footer{
+      display: flex;
+      justify-content: space-evenly;
+      border-top: 2px solid black;
+      margin:0;
+      padding:0;
+      align-items: center;
+      background-color: #C49A6C;
+  }
+  p{
+      font-size: 13px;
+  }   
+  .socials{
+      display: none;
+  }
+  
+  .terms{
+      display:none;
+  }
+}
+
+
+
+
+
+
+
 #fella{
     width: 13vw;
     height: 13vw;
+    margin-top: 35px;
+    margin-left: 15px;
 }
-h1{
-    
+#ajanlat{
+  bottom: 12vw;
+  text-align: center;
+  position: relative;
 }
+
 *{
     margin: 0%;
     padding: 0%;
 }
 
+body
+{
+ background-color: #EAE0D5;
+}
 
 header{
     position: sticky;
@@ -46,6 +118,619 @@ button:hover{
   .dropdown{
     display: none;
   }
+  
+  #Napi{
+    text-align: center;
+    position: relative;
+    bottom: 12vw;
+    font-size: 3vw;
+  }
+
+  div img{
+     width: 300px;
+    height: 300px;
+    }
+    #akcio{
+      display: flex;
+      justify-content: space-around;
+      width: 80%;
+      margin: auto;
+      position: relative;
+      bottom: 3vw;
+    }
+    #szoveg{
+      text-align: center;
+      font-size: small;
+    }
+    #menu{
+      text-align: center;
+      font-size: 100px;
+      margin-top: 100px;
+    }
+
+    #aperitif{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      position: relative;
+      bottom: 31vw;
+    }
+
+    #cim-aperitif{
+      position: relative;
+      width: 50%;
+      font-size: 40px;
+      margin-top: 5vw;
+  
+      width: 20%;
+      left: 510px;
+    }
+
+
+    #cim-italok{
+      position: relative;
+      width: 50%;
+      font-size: 40px;
+      margin-top: 5vw;
+      bottom: 31vw;
+      width: 20%;
+      left: 510px;
+    }
+
+    #italok{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      position: relative;
+      bottom: 31vw;
+    }
+    #cim-eloetelek{
+      position: relative;
+      width: 50%;
+      font-size: 40px;
+      margin-top: 5vw;
+      bottom: 31vw;
+      width: 20%;
+      left: 510px;
+    }
+    #eloetelek1{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      position: relative;
+      bottom: 31vw;
+    }
+
+    #eloetelek2{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      position: relative;
+      bottom: 31vw;
+    }
+
+    #cim-foetelek{
+      position: relative;
+      width: 50%;
+      font-size: 40px;
+      margin-top: 5vw;
+      bottom: 31vw;
+      width: 20%;
+      left: 510px;
+    }
+    #foetelek1{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      position: relative;
+      bottom: 31vw;
+    }
+
+    #foetelek2{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      position: relative;
+      bottom: 31vw;
+    }
+
+    #cim-sajt{
+      position: relative;
+      margin: auto;
+      font-size: 40px;
+      margin-top: 5vw;
+      bottom: 31vw;
+      width: 20%;
+      left: 80px;
+    
+    }
+
+    #sajt{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      position: relative;
+      bottom: 31vw;
+    }
+
+    #cim-desszert{
+      position: relative;
+      width: 50%;
+      font-size: 40px;
+      margin-top: 5vw;
+      bottom: 31vw;
+      width: 20%;
+      left: 510px;
+    }
+    #desszert1{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      position: relative;
+      bottom: 31vw;
+    }
+
+    #desszert2{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      position: relative;
+      bottom: 31vw;
+    }
+    @media  screen and (min-width:601px)
+    {
+
+
+#konyvjelzo{
+  position: relative;
+  width: 20%;
+  background-color: grey;
+  text-align: center;
+  margin-left: 30px;
+  height: 600px;
+  z-index: 1;
+  top: 1vw;
+
+}
+#konyvjelzo p{
+
+ margin-top: 45px;
+ font-size: x-large;
+color: #000;
+}
+
+
+      .overlay {
+        position: absolute; 
+        bottom: 13px; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1; 
+        width: 300px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+    
+        text-align: center;
+      }
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      .container {
+        position: relative;
+        width: 50%;
+        max-width: 280px;
+      }
+      
+      .overlay1 {
+        position: absolute; 
+        bottom: 13px; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1; 
+        width: 300px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+      
+      }
+      .container1:hover .overlay1 {
+        opacity: 1;
+      }
+      .container1 {
+        position: relative;
+        width: 50%;
+        max-width: 280px;
+      }
+
+      .overlay2 {
+        position: absolute; 
+        bottom: 13px; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1; 
+        width: 300px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+      }
+      .container2:hover .overlay2 {
+        opacity: 1;
+      }
+      .container2 {
+        position: relative;
+        width: 50%;
+        max-width: 280px;
+    }
+
+    .overlay3 {
+      position: absolute; 
+      bottom: 13px; 
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1; 
+      width: 300px;
+      transition: .5s ease;
+      opacity:0;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+    }
+    .container3:hover .overlay3 {
+      opacity: 1;
+    }
+    .container3 {
+      position: relative;
+      width: 50%;
+      max-width: 280px;
+  }
+
+  .overlay4 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container4:hover .overlay4 {
+    opacity: 1;
+  }
+  .container4 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay5 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container5:hover .overlay5 {
+    opacity: 1;
+  }
+  .container5 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay6 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container6:hover .overlay6 {
+    opacity: 1;
+  }
+  .container6 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay7 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container7:hover .overlay7 {
+    opacity: 1;
+  }
+  .container7 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay8 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container8:hover .overlay8 {
+    opacity: 1;
+  }
+  .container8 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay9 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container9:hover .overlay9 {
+    opacity: 1;
+  }
+  .container9 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay10 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container10:hover .overlay10 {
+    opacity: 1;
+  }
+  .container10 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay11 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container11:hover .overlay11 {
+    opacity: 1;
+  }
+  .container11 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay12 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container12:hover .overlay12 {
+    opacity: 1;
+  }
+  .container12 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay13 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container13:hover .overlay13 {
+    opacity: 1;
+  }
+  .container13 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay14 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container14:hover .overlay14 {
+    opacity: 1;
+  }
+  .container14 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay15 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container15:hover .overlay15 {
+    opacity: 1;
+  }
+  .container15 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay16 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container16:hover .overlay16 {
+    opacity: 1;
+  }
+  .container16 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay17 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container17:hover .overlay17 {
+    opacity: 1;
+  }
+  .container17 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+
+  .overlay18 {
+    position: absolute; 
+    bottom: 13px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container18:hover .overlay18 {
+    opacity: 1;
+  }
+  .container18 {
+    position: relative;
+    width: 50%;
+    max-width: 280px;
+  }
+  }
+
+  
 
 @media screen and (max-width:600px) {
     #slogen{
