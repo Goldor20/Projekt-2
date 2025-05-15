@@ -900,6 +900,37 @@ color: #000;
   margin-bottom: 50vw;
 }
 
+#cim-aperitif{
+  position: relative;
+  left: 60px;
+  bottom:200px;
+}
+
+#cim-italok{
+  position: relative;
+  left: 60px;
+}
+
+#cim-eloetelek{
+  position: relative;
+  left: 60px;
+}
+
+#cim-foetelek{
+  position: relative;
+  left: 60px;
+}
+
+#cim-sajt{
+  position: relative;
+ left: -180px;
+}
+
+#cim-desszert{
+  position: relative;
+  left: 60px;
+}
+
 #Napi{
   font-size: 7vw;
   position: relative;
