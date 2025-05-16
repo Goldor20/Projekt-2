@@ -1,5 +1,5 @@
-@media screen and (min-width: 601px){/*footer*/
-  footer{
+/*@media screen and (min-width: 601px){/*footer*/
+  /*footer{
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 601px){ /*footer*/
 
-  footer{
+  /*footer{
       display: flex;
       justify-content: space-evenly;
       border-top: 2px solid black;
@@ -54,7 +54,7 @@
   .terms{
       display:none;
   }
-}
+}*/
 
 
 
@@ -74,7 +74,7 @@
     padding: 0%;
 }
 
-body
+/*body
 {
  background-color: #EAE0D5;
 }
@@ -89,7 +89,7 @@ header{
     align-items: center;
     color: #ffff;
     z-index: 2;
-}
+}*/
 #slogen{
     padding-left: 1.7vw;
 }

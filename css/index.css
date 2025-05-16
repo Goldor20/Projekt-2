@@ -2,10 +2,9 @@
     margin: 0%;
     padding: 0%;
 }
-body{
+/*body{
     background-color: #EAE0D5;
 }
-
 
 header{
     position: sticky;
@@ -37,7 +36,7 @@ button{
     font-size: 1.2vw;
     padding: 0.5vw;
     border-radius: 5px;
-}
+}*/
 
 
 
@@ -76,14 +75,14 @@ button{
   .foglal{
     position: absolute;
     bottom: 80px;
-    left:46%;
+    left:43%;
     z-index: 2;
 
   }
   .tervez{
     position: absolute;
     bottom: 40px;
-    left:44%;
+    left:40%;
     z-index: 2;
 
   }
@@ -285,8 +284,8 @@ button{
   }
 }
 
-@media screen and (max-width:601px) { /*header*/
-    #slogen{
+/*@media screen and (max-width:601px) { /*header*/
+   /* #slogen{
        display: none;
     }
     .button{
@@ -299,9 +298,9 @@ button{
     }
 
     /* Jobb fölső logó fix méretei*/
-    .logoright {
-        width: 13%;
-        height: 13%;
+    /*.logoright {
+        width: 10%;
+        height: 10%;
     }
 
     .dropdown{
@@ -346,7 +345,7 @@ button{
       
      
 }
-@media screen and (max-width: 601px){ /*footer*/
+/*@media screen and (max-width: 601px){ footer
 
     footer{
         display: flex;
@@ -368,7 +367,7 @@ button{
         display:none;
     }
 }
-@media screen and (min-width: 601px){/*footer*/
+@media screen and (min-width: 601px){footer
     footer{
         display: flex;
         flex-wrap: wrap;
@@ -399,4 +398,4 @@ button{
     .fb{
         border-radius: 5px; 
     }
-}
+}*/
