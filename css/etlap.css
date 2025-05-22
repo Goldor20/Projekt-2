@@ -1120,3 +1120,11 @@ color: #000;
       
      
   }
+
+ #konyvjelzo p a{
+  color: white;
+  text-decoration: 0;
+  border: 1px solid black;
+  padding: 10px;
+ 
+ }
